@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        // save to firebase
+        
+        //Ahmed
         save.setOnClickListener {
             var  name = PersonName.text.toString()
             var  id = PersonID.text.toString()
